@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Report - DevShield Bot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>DevShield Bot</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="appeal.html">Appeal</a>
+                <a href="report.html">Report</a>
+                <a href="create.html">Create</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Report Section -->
+    <section id="report">
+        <div class="container">
+            <h2>Report a User</h2>
+            <p>If you want to report a user for inappropriate behavior or rule-breaking, please fill out the form:</p>
+            <form action="submit_report.html" method="post">
+                <label for="reported_user">Reported User ID:</label>
+                <input type="text" id="reported_user" name="reported_user" required>
+                <label for="report_reason">Reason for Report:</label>
+                <textarea id="report_reason" name="report_reason" required></textarea>
+                <button type="submit" class="button">Submit Report</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 DevShield Bot. All rights reserved.</p>
+    </footer>
+</body>
+</html>
