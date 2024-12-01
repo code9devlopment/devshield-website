@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Appeal - DevShield Bot</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header Section -->
     <header>
         <div class="container">
             <h1>DevShield Bot</h1>
@@ -16,21 +14,21 @@
                 <a href="index.html">Home</a>
                 <a href="appeal.html">Appeal</a>
                 <a href="report.html">Report</a>
-                <a href="create.html">Create</a>
+                <a href="career.html">Career</a>
             </nav>
         </div>
     </header>
 
-    <!-- Appeal Section -->
     <section id="appeal">
         <div class="container">
             <h2>Appeal a Ban</h2>
-            <p>If you wish to appeal your ban, please provide your details below:</p>
-            <form action="submit_appeal.html" method="post">
+            <form id="appeal-form">
                 <label for="user_id">User ID:</label>
                 <input type="text" id="user_id" name="user_id" required>
+                
                 <label for="appeal_reason">Appeal Reason:</label>
                 <textarea id="appeal_reason" name="appeal_reason" required></textarea>
+                
                 <button type="submit" class="button">Submit Appeal</button>
             </form>
         </div>
@@ -39,5 +37,8 @@
     <footer>
         <p>&copy; 2024 DevShield Bot. All rights reserved.</p>
     </footer>
+
+    <script src="submit.js"></script>
 </body>
 </html>
+
