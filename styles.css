@@ -1,0 +1,129 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #1abc9c;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Introduction Section */
+#intro {
+    background-color: #34495e;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#intro h2 {
+    margin: 0;
+    font-size: 32px;
+}
+
+#intro .button {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#intro .button:hover {
+    background-color: #16a085;
+}
+
+/* Features Section */
+#features {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #ecf0f1;
+}
+
+#features h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#features ul {
+    list-style: none;
+    padding: 0;
+}
+
+#features li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Invite Section */
+#invite {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #1abc9c;
+    color: white;
+}
+
+#invite .button {
+    background-color: #16a085;
+}
+
+#invite .button:hover {
+    background-color: #1abc9c;
+}
+
+/* Support Section */
+#support {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #34495e;
+    color: white;
+}
+
+#support .button {
+    background-color: #1abc9c;
+}
+
+#support .button:hover {
+    background-color: #16a085;
+}
+
+/* Footer Section */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
