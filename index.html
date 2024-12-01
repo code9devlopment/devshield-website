@@ -1,37 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DevShield Bot</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- Header Section -->
-    <header>
-        <div class="container">
-            <h1>DevShield Bot</h1>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="appeal.html">Appeal</a>
-                <a href="report.html">Report</a>
-                <a href="create.html">Create</a>
-            </nav>
-        </div>
-    </header>
+/* Basic Reset */
+body, h1, h2, p, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
 
-    <!-- Main Section -->
-    <section id="main">
-        <div class="container">
-            <h2>Welcome to DevShield</h2>
-            <p>Your powerful Discord moderation bot that helps you manage bans, reports, and more.</p>
-            <a href="create.html" class="button">Create a New Request</a>
-        </div>
-    </section>
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
 
-    <footer>
-        <p>&copy; 2024 DevShield Bot. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+/* Layout */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+/* Form Styling */
+form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
